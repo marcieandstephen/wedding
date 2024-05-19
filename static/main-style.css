@@ -1,6 +1,6 @@
 html {
     background-color: #003b6f;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16pt;
     line-height: 1.6;
     height: 100%;
@@ -17,10 +17,15 @@ h1, h2, h3, h4, h5, h6 {
 
 hr {
     max-width: 10rem;
+    margin: 2rem auto;
 }
 
 p {
     margin: 0.5rem 2rem;
+}
+
+footer {
+    min-height: 10rem;
 }
 
 .banner-image {
@@ -123,4 +128,9 @@ p {
 
 .gallery-thumbnail {
     display: block;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
 }
